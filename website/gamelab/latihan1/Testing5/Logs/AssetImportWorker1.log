@@ -1,0 +1,1296 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.38f1 (82314a941f2d) revision 8532298'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16337 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity Hub\Editor\6000.0.38f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+H:/Documents/materi-pembelajaran/gameTutorial/website/gamelab/latihan1/Testing5
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51045
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: H:/Documents/materi-pembelajaran/gameTutorial/website/gamelab/latihan1/Testing5
+H:/Documents/materi-pembelajaran/gameTutorial/website/gamelab/latihan1/Testing5
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1316]  Target information:
+
+Player connection [1316]  * "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 1909285076 [EditorId] 1909285076 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-S8HVJV4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [1316] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [1316] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 11.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.38f1 (82314a941f2d)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/Editor/6000.0.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/Documents/materi-pembelajaran/gameTutorial/website/gamelab/latihan1/Testing5/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity Hub/Editor/6000.0.38f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity Hub/Editor/6000.0.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008888 seconds.
+- Loaded All Assemblies, in  0.694 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.519 seconds
+Domain Reload Profiling: 1211ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (275ms)
+			TypeCache.Refresh (273ms)
+				TypeCache.ScanAssembly (251ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (519ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (442ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.773 seconds
+Refreshing native plugins compatible for Editor in 8.66 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.371 seconds
+Domain Reload Profiling: 3115ms
+	BeginReloadAssembly (303ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1282ms)
+		LoadAssemblies (997ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (483ms)
+			TypeCache.Refresh (349ms)
+				TypeCache.ScanAssembly (324ms)
+			BuildScriptInfoCaches (108ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1372ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (321ms)
+			ProcessInitializeOnLoadAttributes (711ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 8.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6796 unused Assets / (5.8 MB). Loaded Objects now: 7342.
+Memory consumption went from 148.7 MB to 142.9 MB.
+Total: 18.618800 ms (FindLiveObjects: 0.876200 ms CreateObjectMapping: 0.682200 ms MarkObjects: 13.728200 ms  DeleteObjects: 3.330500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 102316.361153 seconds.
+  path: Assets/Scripts/RubyController.cs
+  artifactKey: Guid(9aee0e34e00420a49ad365f9200d474d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RubyController.cs using Guid(9aee0e34e00420a49ad365f9200d474d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c5565a71a44550d7c9340b95432aaf2') in 0.0141355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6783 unused Assets / (5.6 MB). Loaded Objects now: 7344.
+Memory consumption went from 123.9 MB to 118.3 MB.
+Total: 19.280000 ms (FindLiveObjects: 1.090700 ms CreateObjectMapping: 1.550900 ms MarkObjects: 11.610600 ms  DeleteObjects: 5.026200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  9.336 seconds
+Refreshing native plugins compatible for Editor in 75.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.685 seconds
+Domain Reload Profiling: 12980ms
+	BeginReloadAssembly (735ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (46ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (146ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (112ms)
+	LoadAllAssembliesAndSetupDomain (8294ms)
+		LoadAssemblies (6948ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1752ms)
+			TypeCache.Refresh (37ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (1626ms)
+			ResolveRequiredComponents (78ms)
+	FinalizeReload (3686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3211ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (1026ms)
+			ProcessInitializeOnLoadAttributes (1636ms)
+			ProcessInitializeOnLoadMethodAttributes (517ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 18.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6794 unused Assets / (4.4 MB). Loaded Objects now: 7347.
+Memory consumption went from 127.0 MB to 122.6 MB.
+Total: 31.196600 ms (FindLiveObjects: 2.507500 ms CreateObjectMapping: 2.310800 ms MarkObjects: 18.610400 ms  DeleteObjects: 7.765200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 261.184199 seconds.
+  path: Assets/Scripts/RubyController.cs
+  artifactKey: Guid(9aee0e34e00420a49ad365f9200d474d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RubyController.cs using Guid(9aee0e34e00420a49ad365f9200d474d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0148334 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/rubycontroller.cs in SourceAssetDB has modification time of '2025-02-16T01:25:52.2358345Z' while content on disk has modification time of '2025-02-16T01:27:12.6861987Z'
+  ERROR: Build asset version error: assets/scripts/rubycontroller.cs in SourceAssetDB has modification time of '2025-02-16T01:25:52.2358345Z' while content on disk has modification time of '2025-02-16T01:27:12.6861987Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6783 unused Assets / (6.1 MB). Loaded Objects now: 7347.
+Memory consumption went from 127.2 MB to 121.2 MB.
+Total: 20.471300 ms (FindLiveObjects: 1.475100 ms CreateObjectMapping: 1.637100 ms MarkObjects: 11.686600 ms  DeleteObjects: 5.670400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.295 seconds
+Refreshing native plugins compatible for Editor in 10.25 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.753 seconds
+Domain Reload Profiling: 4012ms
+	BeginReloadAssembly (515ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (1524ms)
+		LoadAssemblies (1289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (506ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (452ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1754ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (453ms)
+			ProcessInitializeOnLoadAttributes (836ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 10.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6794 unused Assets / (5.6 MB). Loaded Objects now: 7349.
+Memory consumption went from 127.1 MB to 121.5 MB.
+Total: 16.578200 ms (FindLiveObjects: 0.988700 ms CreateObjectMapping: 1.508900 ms MarkObjects: 10.094500 ms  DeleteObjects: 3.984300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.255 seconds
+Refreshing native plugins compatible for Editor in 11.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.012 seconds
+Domain Reload Profiling: 4243ms
+	BeginReloadAssembly (489ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1566ms)
+		LoadAssemblies (1300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (532ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (485ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2013ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1689ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (478ms)
+			ProcessInitializeOnLoadAttributes (1026ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 13.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6794 unused Assets / (6.1 MB). Loaded Objects now: 7351.
+Memory consumption went from 127.1 MB to 121.1 MB.
+Total: 20.820400 ms (FindLiveObjects: 1.058300 ms CreateObjectMapping: 1.604700 ms MarkObjects: 11.645000 ms  DeleteObjects: 6.510800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 21.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6783 unused Assets / (5.4 MB). Loaded Objects now: 7351.
+Memory consumption went from 127.3 MB to 121.9 MB.
+Total: 31.365100 ms (FindLiveObjects: 1.859600 ms CreateObjectMapping: 2.135500 ms MarkObjects: 17.429200 ms  DeleteObjects: 9.938500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.169 seconds
+Refreshing native plugins compatible for Editor in 24.59 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.832 seconds
+Domain Reload Profiling: 7943ms
+	BeginReloadAssembly (647ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (144ms)
+	RebuildCommonClasses (180ms)
+	RebuildNativeTypeToScriptingClass (142ms)
+	initialDomainReloadingComplete (142ms)
+	LoadAllAssembliesAndSetupDomain (3000ms)
+		LoadAssemblies (2225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1102ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (995ms)
+			ResolveRequiredComponents (66ms)
+	FinalizeReload (3833ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3131ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (1060ms)
+			ProcessInitializeOnLoadAttributes (1738ms)
+			ProcessInitializeOnLoadMethodAttributes (291ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 13.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6794 unused Assets / (5.4 MB). Loaded Objects now: 7353.
+Memory consumption went from 127.1 MB to 121.7 MB.
+Total: 25.350000 ms (FindLiveObjects: 2.455700 ms CreateObjectMapping: 1.941500 ms MarkObjects: 14.025600 ms  DeleteObjects: 6.925100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.133 seconds
+Refreshing native plugins compatible for Editor in 18.34 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.900 seconds
+Domain Reload Profiling: 4004ms
+	BeginReloadAssembly (428ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (1490ms)
+		LoadAssemblies (1214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (497ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (453ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1901ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1597ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (488ms)
+			ProcessInitializeOnLoadAttributes (931ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 11.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6794 unused Assets / (5.7 MB). Loaded Objects now: 7355.
+Memory consumption went from 127.1 MB to 121.5 MB.
+Total: 21.173000 ms (FindLiveObjects: 1.481800 ms CreateObjectMapping: 1.837200 ms MarkObjects: 12.843400 ms  DeleteObjects: 5.008500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6783 unused Assets / (5.6 MB). Loaded Objects now: 7355.
+Memory consumption went from 127.3 MB to 121.6 MB.
+Total: 26.400100 ms (FindLiveObjects: 1.100600 ms CreateObjectMapping: 1.201500 ms MarkObjects: 17.021800 ms  DeleteObjects: 7.074200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.522 seconds
+Refreshing native plugins compatible for Editor in 9.72 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.822 seconds
+Domain Reload Profiling: 4311ms
+	BeginReloadAssembly (676ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (167ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1532ms)
+		LoadAssemblies (1525ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (476ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (428ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1823ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1518ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (466ms)
+			ProcessInitializeOnLoadAttributes (868ms)
+			ProcessInitializeOnLoadMethodAttributes (161ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 12.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6794 unused Assets / (5.7 MB). Loaded Objects now: 7357.
+Memory consumption went from 127.1 MB to 121.5 MB.
+Total: 20.115400 ms (FindLiveObjects: 1.356600 ms CreateObjectMapping: 1.797900 ms MarkObjects: 10.243500 ms  DeleteObjects: 6.714700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.609 seconds
+Refreshing native plugins compatible for Editor in 12.31 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.510 seconds
+Domain Reload Profiling: 5089ms
+	BeginReloadAssembly (511ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (107ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1850ms)
+		LoadAssemblies (1395ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (722ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (668ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (2511ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2100ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (610ms)
+			ProcessInitializeOnLoadAttributes (1211ms)
+			ProcessInitializeOnLoadMethodAttributes (251ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 14.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6794 unused Assets / (5.8 MB). Loaded Objects now: 7359.
+Memory consumption went from 127.1 MB to 121.3 MB.
+Total: 23.718900 ms (FindLiveObjects: 1.840900 ms CreateObjectMapping: 1.705500 ms MarkObjects: 13.774500 ms  DeleteObjects: 6.396000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6783 unused Assets / (5.6 MB). Loaded Objects now: 7359.
+Memory consumption went from 127.3 MB to 121.7 MB.
+Total: 22.844000 ms (FindLiveObjects: 1.822800 ms CreateObjectMapping: 1.866700 ms MarkObjects: 13.816300 ms  DeleteObjects: 5.336000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.532 seconds
+Refreshing native plugins compatible for Editor in 11.08 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.554 seconds
+Domain Reload Profiling: 5057ms
+	BeginReloadAssembly (508ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (107ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1778ms)
+		LoadAssemblies (1403ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (650ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (588ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (2555ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2151ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (602ms)
+			ProcessInitializeOnLoadAttributes (1282ms)
+			ProcessInitializeOnLoadMethodAttributes (236ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 12.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6794 unused Assets / (5.5 MB). Loaded Objects now: 7361.
+Memory consumption went from 127.1 MB to 121.7 MB.
+Total: 18.159800 ms (FindLiveObjects: 1.553700 ms CreateObjectMapping: 1.888000 ms MarkObjects: 9.804000 ms  DeleteObjects: 4.911900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 882.652239 seconds.
+  path: Assets/UnityTechnologies/Final/Settings/UnityDefaultRuntimeTheme.tss
+  artifactKey: Guid(4d9148f77f45cc549a00af7a6c514395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Settings/UnityDefaultRuntimeTheme.tss using Guid(4d9148f77f45cc549a00af7a6c514395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5fb69586dc2ceae2740811ab210bb52') in 0.7650847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6784 unused Assets / (5.5 MB). Loaded Objects now: 7416.
+Memory consumption went from 132.8 MB to 127.3 MB.
+Total: 16.324500 ms (FindLiveObjects: 0.950600 ms CreateObjectMapping: 0.769800 ms MarkObjects: 10.814000 ms  DeleteObjects: 3.788700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.879 seconds
+Refreshing native plugins compatible for Editor in 8.07 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.641 seconds
+Domain Reload Profiling: 7488ms
+	BeginReloadAssembly (451ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (5245ms)
+		LoadAssemblies (5117ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (370ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (334ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1642ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1408ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (348ms)
+			ProcessInitializeOnLoadAttributes (903ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 12.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6795 unused Assets / (5.6 MB). Loaded Objects now: 7417.
+Memory consumption went from 132.2 MB to 126.5 MB.
+Total: 18.034100 ms (FindLiveObjects: 1.097000 ms CreateObjectMapping: 1.404600 ms MarkObjects: 9.990900 ms  DeleteObjects: 5.538900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6783 unused Assets / (6.4 MB). Loaded Objects now: 7416.
+Memory consumption went from 132.3 MB to 125.9 MB.
+Total: 17.326500 ms (FindLiveObjects: 1.706100 ms CreateObjectMapping: 1.933100 ms MarkObjects: 7.344300 ms  DeleteObjects: 6.340600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 13.335 seconds
+Refreshing native plugins compatible for Editor in 7.92 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.321 seconds
+Domain Reload Profiling: 14631ms
+	BeginReloadAssembly (460ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (12668ms)
+		LoadAssemblies (1157ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11746ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (11698ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1322ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1115ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (342ms)
+			ProcessInitializeOnLoadAttributes (647ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 7.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6794 unused Assets / (5.7 MB). Loaded Objects now: 7418.
+Memory consumption went from 132.1 MB to 126.5 MB.
+Total: 11.039200 ms (FindLiveObjects: 0.946500 ms CreateObjectMapping: 0.613000 ms MarkObjects: 6.023700 ms  DeleteObjects: 3.454500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 345.978449 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner1.asset
+  artifactKey: Guid(788cf4be0391d504589363aaa710c223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner1.asset using Guid(788cf4be0391d504589363aaa710c223) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '478c2751c595b515f0b25be14e25ae32') in 0.3677907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner6.asset
+  artifactKey: Guid(b154d1a0fb5949840a66fd7290cdb3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner6.asset using Guid(b154d1a0fb5949840a66fd7290cdb3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a731fec4968ac66f1ad6909bd82f83b4') in 0.0103129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner8.asset
+  artifactKey: Guid(212d44572c184364ca3411561d16fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner8.asset using Guid(212d44572c184364ca3411561d16fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '861c5d42af0a36cf8b9d53f8afe32707') in 0.0092573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner3.asset
+  artifactKey: Guid(f96cc6bcf9bf89a48b44ec8223b237e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner3.asset using Guid(f96cc6bcf9bf89a48b44ec8223b237e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '547ee55da7539b910ecebe2ba2995a50') in 0.0096797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare2.asset
+  artifactKey: Guid(e9eb87770b279994cae09d88f0fe2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare2.asset using Guid(e9eb87770b279994cae09d88f0fe2621) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f2261d61481ad6c981b55401fbe10dd') in 0.0443892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner0.asset
+  artifactKey: Guid(8ec67d9c8a982dc48b94f766eb359f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner0.asset using Guid(8ec67d9c8a982dc48b94f766eb359f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0993375c7447430d75f9d7665f7c9fc3') in 0.0128167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner1.asset
+  artifactKey: Guid(35642f499ec12a04ba651be496c3b24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner1.asset using Guid(35642f499ec12a04ba651be496c3b24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a41a0e7cf5efc4088d06a8f14434239') in 0.0091504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare7.asset
+  artifactKey: Guid(7ffbc5720ec4d4c47a0d7256ad746685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare7.asset using Guid(7ffbc5720ec4d4c47a0d7256ad746685) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30cbec0e35c276ae3812d9c6356115fd') in 0.0088756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner4.asset
+  artifactKey: Guid(63a5bd92ab6c32247b2a042a4950be2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner4.asset using Guid(63a5bd92ab6c32247b2a042a4950be2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f097f14d72cfbc0e1ecb458202bceb89') in 0.0098003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner6.asset
+  artifactKey: Guid(5ab0382d2df85d8439e40f8200b63f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner6.asset using Guid(5ab0382d2df85d8439e40f8200b63f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef0385c42d451c7135b47ac416ac51b9') in 0.0098034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner5.asset
+  artifactKey: Guid(82a91bb3b33396040b780c50be3c101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner5.asset using Guid(82a91bb3b33396040b780c50be3c101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a15112d933c4244c273fef398693f5e') in 0.0088613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner7.asset
+  artifactKey: Guid(85d5c001f5678854ba81d46bdb021c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner7.asset using Guid(85d5c001f5678854ba81d46bdb021c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f598da14b42f72f829e98f90f873eed') in 0.0102533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare1.asset
+  artifactKey: Guid(68c2a8b7fb04d4d41bf36aba16434303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare1.asset using Guid(68c2a8b7fb04d4d41bf36aba16434303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '745394a58d65eabb947acec291dc8961') in 0.0107687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare4.asset
+  artifactKey: Guid(ab7eaea08efca0c47a23517740f6548a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare4.asset using Guid(ab7eaea08efca0c47a23517740f6548a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '713e9d76c92e847e015bb7e236794c3b') in 0.0105806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare8.asset
+  artifactKey: Guid(6353da6aeb7f86c4aad3939f5b809e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare8.asset using Guid(6353da6aeb7f86c4aad3939f5b809e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14d1c1e1cf7e0dc69aa47001ec52b296') in 0.0101257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare1.asset
+  artifactKey: Guid(f446ce209f77cd044a3634969f724bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare1.asset using Guid(f446ce209f77cd044a3634969f724bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64642c961664795e2b50ed95c1759d33') in 0.0109614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare2.asset
+  artifactKey: Guid(31afdfed8f720c34dbc15a24fa2506b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare2.asset using Guid(31afdfed8f720c34dbc15a24fa2506b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c56ddc6a8cf598897902cc3e130f169f') in 0.0094355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner2.asset
+  artifactKey: Guid(85d6eabb4f5d43e4f8801f4ad0f30051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner2.asset using Guid(85d6eabb4f5d43e4f8801f4ad0f30051) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cf6f7a82c1d8d7f171fc5bccfb94674') in 0.0154267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner7.asset
+  artifactKey: Guid(6a8a39291f9bf9c4b87da4ea7ac1702c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner7.asset using Guid(6a8a39291f9bf9c4b87da4ea7ac1702c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e0c51207cdc3f9feb8d662242e901ba') in 0.0393513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner4.asset
+  artifactKey: Guid(4fa37cffe1c7f774dbc50cee6b706a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner4.asset using Guid(4fa37cffe1c7f774dbc50cee6b706a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f22f38c693d507ce099460e0520d658') in 0.0091405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare3.asset
+  artifactKey: Guid(f990905faaf0a5e4f862dee04d67fef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare3.asset using Guid(f990905faaf0a5e4f862dee04d67fef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07b9f63cf17e7ef8da57ac5d5d7fd70f') in 0.0091191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners0.asset
+  artifactKey: Guid(b5ddcf93c0b2bb349a7eb8c41828e5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners0.asset using Guid(b5ddcf93c0b2bb349a7eb8c41828e5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66430d089b39ed22fcfabfddb78716bf') in 0.0098092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare3.asset
+  artifactKey: Guid(b2d0d670d97402c40b39f9fd540f7599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare3.asset using Guid(b2d0d670d97402c40b39f9fd540f7599) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f770007dffe8f7e4367fac47f0daba1f') in 0.0648345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners3.asset
+  artifactKey: Guid(de6ee2b7d4856224d945284292ebe438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners3.asset using Guid(de6ee2b7d4856224d945284292ebe438) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41c3e97b45ff31b55543f94b4c38c988') in 0.0124597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners4.asset
+  artifactKey: Guid(470aeb7c1cebe514eb9b468fa9f5590d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners4.asset using Guid(470aeb7c1cebe514eb9b468fa9f5590d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4e0fecac46739cb936aff9810ad9cd2') in 0.0096493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners6.asset
+  artifactKey: Guid(6ab5fa6fb26491f45a359313ea7ad448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners6.asset using Guid(6ab5fa6fb26491f45a359313ea7ad448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53650e3c340675f9f21036c34f26e6a6') in 0.0207986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners7.asset
+  artifactKey: Guid(bc3c7531105ba96418069dc44de1ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners7.asset using Guid(bc3c7531105ba96418069dc44de1ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fdcdb312baab128441a8de51a85e421') in 0.0882959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners5.asset
+  artifactKey: Guid(03b982ce36a4128429f16256614e654a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners5.asset using Guid(03b982ce36a4128429f16256614e654a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe96d4b7f70e7997195f09d243a9ba56') in 0.0098293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners2.asset
+  artifactKey: Guid(024da86bea011fd4c802acac1925c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners2.asset using Guid(024da86bea011fd4c802acac1925c264) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '172577ddb3bd88c60de2c51664ff271b') in 0.0087446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner2.asset
+  artifactKey: Guid(5de2d4f0bf3774844acc67078a5508cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner2.asset using Guid(5de2d4f0bf3774844acc67078a5508cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69b1b309e96eb71877feb519dff608a6') in 0.0089775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare5.asset
+  artifactKey: Guid(fe81cde85aaed08438d6fe51da790be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare5.asset using Guid(fe81cde85aaed08438d6fe51da790be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c40c3e84a515ce6d0837ba7bb1d4565') in 0.0091229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner5.asset
+  artifactKey: Guid(aa13a703dd868bb4ea255c3859fcb6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassCorner5.asset using Guid(aa13a703dd868bb4ea255c3859fcb6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52f80051bb2c0e8831ba5016a7662ec4') in 0.0599705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare6.asset
+  artifactKey: Guid(ec568d9d6d684f04591c1a90797f561f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare6.asset using Guid(ec568d9d6d684f04591c1a90797f561f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55f33b8d9159dc413785eab3f44c78ae') in 0.0096634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare4.asset
+  artifactKey: Guid(0e9532186c12594478749f2025f7355e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare4.asset using Guid(0e9532186c12594478749f2025f7355e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a68655d65ef858b6cd96a07c8ed7f0e3') in 0.0091537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare8.asset
+  artifactKey: Guid(f7c4a409fe02b8f4cbe01ae38ea20a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare8.asset using Guid(f7c4a409fe02b8f4cbe01ae38ea20a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcb448253e1b3188564de47e30e09fc4') in 0.0092458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner8.asset
+  artifactKey: Guid(a2841ecd63d44a6418953e2551c03cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner8.asset using Guid(a2841ecd63d44a6418953e2551c03cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '227425e4662d1f548bd9f365764b7d7a') in 0.0559405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners1.asset
+  artifactKey: Guid(61cc8d0cea0d7b54298158c2585a7563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorWaterRoundCorners1.asset using Guid(61cc8d0cea0d7b54298158c2585a7563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'def1e2ef8a4765bc91925d3209d4f037') in 0.0093415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner3.asset
+  artifactKey: Guid(a4b84551781929444b36f27d7a2ca736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksCorner3.asset using Guid(a4b84551781929444b36f27d7a2ca736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efa5206c71afda03072f0c058a62dfed') in 0.0104808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare7.asset
+  artifactKey: Guid(12970fae3c451f64d867df734ea1aca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorGrassToBricksSquare7.asset using Guid(12970fae3c451f64d867df734ea1aca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36b142942c9549ff0809c75a59f85bf1') in 0.0095409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare0.asset
+  artifactKey: Guid(38a803b6d284fcf4c989bc4c098572c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare0.asset using Guid(38a803b6d284fcf4c989bc4c098572c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0daaff9548c0f12de80df66e77409560') in 0.063603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare5.asset
+  artifactKey: Guid(374ea4ed78626554e94a62df07b27a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Tiles/Ruby/FloorBricksToGrassSquare5.asset using Guid(374ea4ed78626554e94a62df07b27a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0033fe8d889034390ac8e86b0bb4ffb') in 0.0091902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.425623 seconds.
+  path: Assets/UnityTechnologies/Final/Art/SugarLand/Environment/Baclava.png
+  artifactKey: Guid(4cf7dbc512ed75448a027fc30b8d999b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Art/SugarLand/Environment/Baclava.png using Guid(4cf7dbc512ed75448a027fc30b8d999b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39d0feff3021f006d32b6dfe4b1af634') in 0.4644975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/UnityTechnologies/Final/Art/SugarLand/Environment/CakePistachioSlice.png
+  artifactKey: Guid(56be4dcb817f2024a96ac0d2bf33029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Art/SugarLand/Environment/CakePistachioSlice.png using Guid(56be4dcb817f2024a96ac0d2bf33029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2321a726e0bfc9aa420ceeeed5dd5bce') in 0.0185626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UnityTechnologies/Final/Art/SugarLand/Environment/CakeChocBall.png
+  artifactKey: Guid(9e1f5e74528314a47a56f47519c8fa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Art/SugarLand/Environment/CakeChocBall.png using Guid(9e1f5e74528314a47a56f47519c8fa01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82b3e896c606990354cf00ffe59cf10e') in 0.022947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityTechnologies/Final/Art/SugarLand/Environment/CakeMacaron.png
+  artifactKey: Guid(cbd0165923f3c754aa9c651a158b85b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Art/SugarLand/Environment/CakeMacaron.png using Guid(cbd0165923f3c754aa9c651a158b85b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cda887aca33504529d5c7139d9c35ed') in 0.021115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.750583 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/UI/CharacterPortrait.png
+  artifactKey: Guid(e8af26c6841fc05459ccaf23dbab2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/UI/CharacterPortrait.png using Guid(e8af26c6841fc05459ccaf23dbab2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48f90122790b1c13e9e400e85ea8d4d0') in 0.0243107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098349 seconds.
+  path: Assets/UnityTechnologies/Final/Art/Ducko/Environmnent/CloudShadow.png
+  artifactKey: Guid(8420ac9d9bf04eb4b91c2c647ffc4505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Art/Ducko/Environmnent/CloudShadow.png using Guid(8420ac9d9bf04eb4b91c2c647ffc4505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e459acda6997111df5d7882afe77df0') in 0.1034242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.217125 seconds.
+  path: Assets/UnityTechnologies/Final/Art/SugarLand/VFX/CoinBullet.png
+  artifactKey: Guid(da4d7156349eb0741b629c76de8b05b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Art/SugarLand/VFX/CoinBullet.png using Guid(da4d7156349eb0741b629c76de8b05b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6860faef97676fe3a72b86f55dc800a') in 0.0303958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025146 seconds.
+  path: Assets/UnityTechnologies/Final/Art/SugarLand/VFX/CollectibleAmmoGoldCoins.png
+  artifactKey: Guid(3ae2dd12c00ed8449ab3edb2c0a1b57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Art/SugarLand/VFX/CollectibleAmmoGoldCoins.png using Guid(3ae2dd12c00ed8449ab3edb2c0a1b57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '850c25f4fbcba8658fe201ca928fcdaa') in 0.0235507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.431065 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/VFX/CollectibleHealth.png
+  artifactKey: Guid(11c777a08257e944e98899b0c6011308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/VFX/CollectibleHealth.png using Guid(11c777a08257e944e98899b0c6011308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '283e0014572a03c06fbb89f2b50d6b47') in 0.0420364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000613 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/VFX/CollectibleHealth.png
+  artifactKey: Guid(9d3ab281567f94c4b84d23954c7d5943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/VFX/CollectibleHealth.png using Guid(9d3ab281567f94c4b84d23954c7d5943) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '999f343f169595e30b75ef9c0715034b') in 0.0281173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.300188 seconds.
+  path: Assets/UnityTechnologies/Final/Art/SugarLand/Environment/CreamCherry.png
+  artifactKey: Guid(1303bfce2cc5266499062598106fe6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Art/SugarLand/Environment/CreamCherry.png using Guid(1303bfce2cc5266499062598106fe6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5a7f739970fd2fe6be9bce36b1c2e0a') in 0.0207649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044231 seconds.
+  path: Assets/UnityTechnologies/Final/Art/SugarLand/Environment/DamageableChocolate.png
+  artifactKey: Guid(42b52eba867b70c41a022d62b0347606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Art/SugarLand/Environment/DamageableChocolate.png using Guid(42b52eba867b70c41a022d62b0347606) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9adb00011f2ceb8a5e35e4a19c645501') in 0.0220048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011251 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/DamageZone.png
+  artifactKey: Guid(13249ead3faf799469c8786003b8d91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/DamageZone.png using Guid(13249ead3faf799469c8786003b8d91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd99c9318f60674a94242d6611afb2c77') in 0.0204239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.788582 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_2.png
+  artifactKey: Guid(45130b74f6f00be4ba1b0a5b37d7e997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_2.png using Guid(45130b74f6f00be4ba1b0a5b37d7e997) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '812ef9a05c09cab0647c73985ddeec62') in 0.0270765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.375781 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_4.png
+  artifactKey: Guid(23d8df0218475df46be56a8143990f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_4.png using Guid(23d8df0218475df46be56a8143990f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dcabc035b234d7d0d61abf66b71a815') in 0.0142719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.635251 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_6.png
+  artifactKey: Guid(82d5688758c3b77419f8685039b754e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/Ducko/Environmnent/Decoration_6.png using Guid(82d5688758c3b77419f8685039b754e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf8bda2ded6250b7cd91a41e8b6ec305') in 0.0203156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.551577 seconds.
+  path: Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_7.png
+  artifactKey: Guid(a4beff249b73e1a4abd249b214b6d0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/StarterAsset/Art/SugarLand/Environment/Decoration_7.png using Guid(a4beff249b73e1a4abd249b214b6d0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3aceec67e32c5e930a11b361be1f813') in 0.0222234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 683.101100 seconds.
+  path: Assets/UnityTechnologies/Final/Prefabs/Ruby/Enemy.prefab
+  artifactKey: Guid(fabc6663cd332f94d9c3b6a1e917070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Prefabs/Ruby/Enemy.prefab using Guid(fabc6663cd332f94d9c3b6a1e917070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b89735944b63bd1fce27184dca90b1e0') in 0.764105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UnityTechnologies/Final/Prefabs/Ruby/Projectile.prefab
+  artifactKey: Guid(5847c61d20e6ce04dbc333e41dad3ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Prefabs/Ruby/Projectile.prefab using Guid(5847c61d20e6ce04dbc333e41dad3ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bf21a7cdaec2ca9a490a0778d20c1f1') in 0.0403235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UnityTechnologies/Final/Prefabs/Ruby/PickupEffect.prefab
+  artifactKey: Guid(96e9cd9955be74842b5d6b2e427ffe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/Final/Prefabs/Ruby/PickupEffect.prefab using Guid(96e9cd9955be74842b5d6b2e427ffe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaa5f38630e2f148b34a8ee51ac7476f') in 0.0199231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
