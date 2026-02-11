@@ -38,6 +38,11 @@ public class Turret : MonoBehaviour
 
             RaycastHit hit;
             Vector3 down = transform.TransformDirection(Vector3.down);
+
+            if(Physics.Raycast(transform.position, down, out hit, 100f))
+            {
+                // TODO: Activate CLaw when done and define it with a target.
+            }
         }
     }
 }
