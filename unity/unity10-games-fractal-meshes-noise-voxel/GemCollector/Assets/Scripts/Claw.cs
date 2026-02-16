@@ -6,7 +6,7 @@ public class Claw : MonoBehaviour
 	public Transform Origin = null;
 	public float Speed = 4f;
 	public Turret TurretScript = null;
-	// TODO : Add a reference to ScoreManager
+	public ScoreManager ScoreManagerScript = null;
 	public int GemValue = 100;
 
 	private Vector3 target;
@@ -33,7 +33,8 @@ public class Claw : MonoBehaviour
 
 			if (isGemHit)
 			{
-				// TODO : Add points using ScoreManager
+				if (ScoreManagerScript != null)
+					ScoreManagerScript.AddPoints(GemValue);
 				isGemHit = false;
 			}
 
