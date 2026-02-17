@@ -634,48 +634,6 @@ MonoBehaviour:
   TurretScript: {fileID: 974574340}
   ScoreManagerScript: {fileID: 1099111876}
   GemValue: 100
---- !u!1001 &683962047
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4726367778910896, guid: 8cffe010c0fd03948b6713e10b8d0a24, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4726367778910896, guid: 8cffe010c0fd03948b6713e10b8d0a24, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4726367778910896, guid: 8cffe010c0fd03948b6713e10b8d0a24, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4726367778910896, guid: 8cffe010c0fd03948b6713e10b8d0a24, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4726367778910896, guid: 8cffe010c0fd03948b6713e10b8d0a24, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4726367778910896, guid: 8cffe010c0fd03948b6713e10b8d0a24, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4726367778910896, guid: 8cffe010c0fd03948b6713e10b8d0a24, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4726367778910896, guid: 8cffe010c0fd03948b6713e10b8d0a24, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 8cffe010c0fd03948b6713e10b8d0a24, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &974574335
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,7 +826,7 @@ RectTransform:
   - {fileID: 1337784845}
   - {fileID: 42642453}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -981,7 +939,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1337784844
 GameObject:
@@ -1289,6 +1247,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1781548833}
+  - component: {fileID: 1781548834}
   m_Layer: 0
   m_Name: SpawnGems
   m_TagString: Untagged
@@ -1307,8 +1266,28 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1781548834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1781548832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c32652cfa3e746646bb7176a78e3a07e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  XRange: 6
+  YRange: 2
+  NumberOfObjects: 8
+  GemTable:
+  - {fileID: 1822060871680214, guid: 8cffe010c0fd03948b6713e10b8d0a24, type: 2}
+  - {fileID: 1822060871680214, guid: 221b3f155b145304dafe305c2960c042, type: 2}
+  - {fileID: 1822060871680214, guid: 3a4a94c43892faa4c8fb1aa6fc205902, type: 2}
+  - {fileID: 1298757673847254, guid: 76aa515f3aead714dafb034391075533, type: 2}
+  - {fileID: 1822060871680214, guid: b95d3c313742d224287844a2d3ae3480, type: 2}
 --- !u!1 &2091592568
 GameObject:
   m_ObjectHideFlags: 0
