@@ -1,0 +1,82 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Looper34 : MonoBehaviour
+{
+    int number1, number2, number3, number4, number5, countdown;
+
+    void Start()
+    {
+        number1 = 0;
+        number2 = 0;
+        number3 = 0;
+        number4 = 0;
+        number5 = 0;
+        countdown = 3;
+
+        // jelaskan InvokeRepeating di laporan Anda
+        InvokeRepeating("CountDown", 1, 1);
+    }
+
+    void Update()
+    {
+        if (countdown == 0)
+        {
+            number1++;
+        }
+    }
+
+    void FixedUpdate()
+    {
+        number2++;
+    }
+
+    void CountDown()
+    {
+        countdown--;
+
+        if (countdown == 0)
+        {
+            InvokeRepeating("Looping1", 1, 1);
+            InvokeRepeating("Looping2", 5, 0.5f);
+            Invoke("NoLooping", 10);
+            CancelInvoke("CountDown");
+        }
+    }
+
+    void Looping1()
+    {
+        number3++;
+    }
+
+    void Looping2()
+    {
+        number4++;
+    }
+
+    void NoLooping()
+    {
+        number5++;
+    }
+
+    private void OnGUI()
+    {
+        GUILayout.BeginArea(new Rect(70, 70, 400, 200));
+
+        if (countdown == 0)
+        {
+            GUILayout.Label("Update Increment: " + number1.ToString());
+            GUILayout.Label("FixedUpdate Increment: " + number2.ToString());
+            GUILayout.Label("Start at: 1 sec (interval 1) : " + number3.ToString());
+            GUILayout.Label("Start at: 5 sec (interval 0,5) : " + number4.ToString());
+            GUILayout.Label("Start at: 10 sec (No Looping) : " + number5.ToString());
+        }
+        else
+        {
+            GUILayout.Label("Count Down : " + countdown.ToString());
+        }
+
+        GUILayout.EndArea();
+    }
+}
